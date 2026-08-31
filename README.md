@@ -1,19 +1,14 @@
-# computer_Architecture_Project_Piplined-_CPU_2021
+# Pipelined MIPS CPU in Verilog
 
-Multi-cycle datapath CPU ,ALU,PIPElINED
+Computer-architecture course project: a **pipelined MIPS datapath** in Verilog.
 
-This repository is **original work** on this account. It is kept for provenance.
+Includes ALU and ALU control, register file, instruction/data memories, sign/zero extend, muxes, forwarding unit, stall control, flush, JR control, and a testbench (`MIPSStimulus.v`). Instruction stream: `Project_arch/instr.txt`. Notes: `multi_cycle.pdf`.
 
-It is **not** current research. Featured work:
+This is a student CPU, not an FPGA product.
 
-- [qg-lada-lab](https://github.com/ahmaddroobi99/qg-lada-lab) — QG Lagrangian data assimilation
-- [ai-perception-lab](https://github.com/ahmaddroobi99/ai-perception-lab) — computer vision lab
-- Profile: [github.com/ahmaddroobi99](https://github.com/ahmaddroobi99)
+**Stack:** Verilog
 
-## Language
+---
+Historical **BSc Computer Engineering** work (An-Najah National University, 2021). Kept for provenance — not current research.
 
-Verilog
-
-## Year
-
-2021
+Current work: [github.com/ahmaddroobi99](https://github.com/ahmaddroobi99)
